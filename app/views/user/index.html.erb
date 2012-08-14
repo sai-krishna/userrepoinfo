@@ -1,0 +1,20 @@
+<body>
+<div class="heading">
+<h1>GITHUB USER REPO</h1>
+</div>
+<%= form_tag('/user/make_pdf', :method => :post) do %>
+<div class="user_label">
+Enter User name:
+</div>
+<div class="user_input">
+<%= text_field_tag 'name' %>
+</div>
+<div class="submit_btn">
+<%= submit_tag "Get Link to Repo's PDF" %>
+</div>
+<% end %>
+</div>
+
+
+
+
