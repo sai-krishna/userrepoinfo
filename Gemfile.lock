@@ -135,6 +135,7 @@ DEPENDENCIES
   coffee-rails (~> 3.2.1)
   github_api
   jquery-rails
+  json
   pg
   prawn
   rails (= 3.2.1)

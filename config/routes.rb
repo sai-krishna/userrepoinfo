@@ -1,6 +1,6 @@
 Userrepoinfo::Application.routes.draw do
   get "user/index"
-  post "user/make_pdf"
+  get "user/make_pdf"
   get  "user/show_pdf_link"
   # The priority is based upon order of creation:
   # first created -> highest priority.
