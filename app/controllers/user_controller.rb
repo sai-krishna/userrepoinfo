@@ -6,11 +6,7 @@ require 'json'
 class UserController < ApplicationController
 
   def index
-
-
-    #redirect_to => "https://github.com/login/oauth/authorize?client_id=19d4df26ccfd1d35f7eb&state=123"
-   
-
+    #redirect_to => "https://github.com/login/oauth/authorize?client_id=19d4df26ccfd1d35f7eb&state=123"   
   end
 
 
